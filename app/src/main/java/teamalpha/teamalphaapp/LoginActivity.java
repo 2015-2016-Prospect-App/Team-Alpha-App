@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * TODO: remove after connecting to a real authentication system.
      */
     private static final String[] DUMMY_CREDENTIALS = new String[]{
-            "foo@example.com:hello", "bar@example.com:world","@:password"
+            "foo@example.com:hello", "bar@example.com:world", "@:password"
     };
     /**
      * Keep track of the login task to ensure we can cancel it if requested.
@@ -328,12 +328,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 String[] pieces = credential.split(":");
                 if (pieces[0].equals(mEmail)) {
                     // Account exists, return true if the password matches.
+                    Log.d(TAG, "email okay..");
                     return pieces[1].equals(mPassword);
                 }
             }
 
 
             // TODO: register the new account here.
+            Log.d(TAG, "register..");
             return true;
         }
 
@@ -343,7 +345,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
 
             if (success) {
-                finish();
+                // finish();
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
                 mPasswordView.requestFocus();
