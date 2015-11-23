@@ -102,7 +102,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if (!mayRequestContacts()) {
             return;
         }
-        Log.d(TAG, "Hello World");
 
         getLoaderManager().initLoader(0, null, this);
     }
@@ -197,15 +196,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
-        Log.d(TAG, " email test");
-        Log.d(TAG, email + " email test");
         return email.contains("@");
     }
 
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
-        Log.d(TAG, " password test");
-        Log.d(TAG, password + " Password Test");
         return password.length() > 4;
     }
 
@@ -328,14 +323,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 String[] pieces = credential.split(":");
                 if (pieces[0].equals(mEmail)) {
                     // Account exists, return true if the password matches.
-                    Log.d(TAG, "email okay..");
                     return pieces[1].equals(mPassword);
                 }
             }
 
 
             // TODO: register the new account here.
-            Log.d(TAG, "register..");
             return true;
         }
 
@@ -346,6 +339,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             if (success) {
                 // finish(); This causes the app to exit out, thus appearing to crash - Tyler
+                // This gets executed if the tests are past
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
                 mPasswordView.requestFocus();
