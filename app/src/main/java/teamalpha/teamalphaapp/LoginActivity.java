@@ -197,11 +197,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
+        Log.d(TAG, " email test");
+        Log.d(TAG, email + " email test");
         return email.contains("@");
     }
 
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
+        Log.d(TAG, " password test");
+        Log.d(TAG, password + " Password Test");
         return password.length() > 4;
     }
 
@@ -327,6 +331,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     return pieces[1].equals(mPassword);
                 }
             }
+
 
             // TODO: register the new account here.
             return true;
