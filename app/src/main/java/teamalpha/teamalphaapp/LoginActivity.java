@@ -11,6 +11,7 @@ import android.app.LoaderManager.LoaderCallbacks;
 
 import android.content.CursorLoader;
 import android.content.Loader;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -31,7 +32,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-import android.util.Log;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -337,9 +337,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = null;
             showProgress(false);
 
+            // success is true if new user should be registered or user should login - Tyler
             if (success) {
                 // finish(); This causes the app to exit out, thus appearing to crash - Tyler
-                // This gets executed if the tests are past
+
+                startActivity(new Intent(LoginActivity.this, MenuActivity.class));
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
                 mPasswordView.requestFocus();
@@ -353,4 +355,3 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
     }
 }
-
