@@ -28,9 +28,10 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Find A Match"
+                android:text="@string/findAMatch"
                 android:id="@+id/buttonFindMatch"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="openFindAMatch" />
         </TableRow>
 
         <TableRow
@@ -40,7 +41,7 @@
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Friends List"
+                android:text="@string/friendsList"
                 android:id="@+id/buttonFriendsList"
                 android:layout_weight="1" />
         </TableRow>

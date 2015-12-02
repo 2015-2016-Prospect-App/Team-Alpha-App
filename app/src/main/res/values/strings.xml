@@ -14,4 +14,7 @@
         completions."
     </string>
     <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="findAMatch">Find A Match</string>
+    <string name="friendsList">Friends List</string>
 </resources>
