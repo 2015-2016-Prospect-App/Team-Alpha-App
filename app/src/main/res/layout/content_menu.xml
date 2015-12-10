@@ -45,6 +45,7 @@
                 android:id="@+id/buttonFriendsList"
                 android:layout_weight="1" />
         </TableRow>
+
     </TableLayout>
 
 </RelativeLayout>
