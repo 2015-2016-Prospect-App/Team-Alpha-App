@@ -21,5 +21,8 @@ public class MenuActivity extends AppCompatActivity {
     public void openFindAMatch(View v) {
         startActivity(new Intent(MenuActivity.this, MapsActivity.class));
     }
+    public void openFriendsList(View v) {
+        startActivity(new Intent(MenuActivity.this, FriendsListActivity.class));
+    }
 
 }

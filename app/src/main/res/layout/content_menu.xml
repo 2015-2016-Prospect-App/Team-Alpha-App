@@ -43,7 +43,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/friendsList"
                 android:id="@+id/buttonFriendsList"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="openFriendsList" />
         </TableRow>
 
     </TableLayout>
