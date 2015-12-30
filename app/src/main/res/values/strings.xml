@@ -17,4 +17,6 @@
     <string name="title_activity_maps">Map</string>
     <string name="findAMatch">Find A Match</string>
     <string name="friendsList">Friends List</string>
+    <string name ="friendName">Friends List</string>
+    <string name ="friendRanking">Friends List</string>
 </resources>
