@@ -46,9 +46,6 @@ public class GoogleLoginActivity extends AppCompatActivity implements
         Log.i("SignIn","Sign in called");
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
-        findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
-        findViewById(R.id.sign_in_button).setVisibility(View.INVISIBLE);
-
     }
 
     public void signOut(){
@@ -80,6 +77,8 @@ public class GoogleLoginActivity extends AppCompatActivity implements
             Intent intent = new Intent(this,MenuActivity.class);
             intent.putExtra("account", acct);
             this.startActivity(intent);
+            findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
+            findViewById(R.id.sign_in_button).setVisibility(View.INVISIBLE);
         } else {
             // Signed out, show unauthenticated UI.
         }
