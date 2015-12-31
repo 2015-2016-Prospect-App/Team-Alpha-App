@@ -22,6 +22,6 @@
     <string name="friendRanking">Friends List</string>
     <string name="sign_out">Sign Out</string>
     <string name="enterName">"Please enter a display name."</string>
-    <string name="backendIP">http://192.168.1.51:2014</string>
+    <string name="backendIP">http://73.223.210.53:2014</string>
     <string name="profile">Profile</string>
 </resources>
