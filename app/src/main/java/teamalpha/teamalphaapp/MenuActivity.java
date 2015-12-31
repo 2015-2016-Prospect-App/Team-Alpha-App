@@ -59,5 +59,9 @@ public class MenuActivity extends AppCompatActivity {
     public void openFriendsList(View v) {
 //        startActivity(new Intent(MenuActivity.this, FriendsListActivity.class));
     }
+    public void openProfile(View v){
+        startActivity(new Intent(MenuActivity.this,ProfileActivity.class));
+
+    }
 
 }

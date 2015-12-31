@@ -11,9 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MenuActivity">
 
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent">
+    <TableRow>
 
         <Button
             android:layout_width="0dp"
@@ -24,9 +22,7 @@
             android:onClick="openFindAMatch" />
     </TableRow>
 
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent">
+    <TableRow>
 
         <Button
             android:layout_width="0dp"
@@ -35,6 +31,16 @@
             android:id="@+id/buttonFriendsList"
             android:layout_weight="1"
             android:onClick="openFriendsList" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:id="@+id/buttonProfile"
+            android:layout_weight="1"
+            android:onClick="openProfile"
+            />
     </TableRow>
 
 </TableLayout>
