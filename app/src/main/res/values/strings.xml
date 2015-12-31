@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Team Alpha App</string>
+    <string name="client_id">541312567370-pab53eic5cd7s031sclpavu8i65rceub.apps.googleusercontent.com</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -17,6 +18,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="findAMatch">Find A Match</string>
     <string name="friendsList">Friends List</string>
-    <string name ="friendName">Friends List</string>
-    <string name ="friendRanking">Friends List</string>
+    <string name="friendName">Friends List</string>
+    <string name="friendRanking">Friends List</string>
+    <string name="sign_out">Sign Out</string>
 </resources>

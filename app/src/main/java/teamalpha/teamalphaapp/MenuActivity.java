@@ -14,15 +14,13 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
     }
 
     public void openFindAMatch(View v) {
         startActivity(new Intent(MenuActivity.this, MapsActivity.class));
     }
     public void openFriendsList(View v) {
-        startActivity(new Intent(MenuActivity.this, FriendsListActivity.class));
+//        startActivity(new Intent(MenuActivity.this, FriendsListActivity.class));
     }
 
 }
