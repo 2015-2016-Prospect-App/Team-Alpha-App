@@ -34,7 +34,7 @@ public class getNameDialog extends DialogFragment {
                         String name = text.getText().toString();
                         RequestQueue queue = Volley.newRequestQueue(getActivity());
                         Log.i("Dialog", "Name is " + name);
-                        String url = "http://192.168.1.51:2014/add-user?token=" + GoogleLoginActivity.acct.getIdToken() + "&name=" + name;
+                        String url = getString(R.string.backendIP)+ "/add-user?token=" + GoogleLoginActivity.acct.getIdToken() + "&name=" + name;
                         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                                 new Response.Listener<String>() {
                                     @Override

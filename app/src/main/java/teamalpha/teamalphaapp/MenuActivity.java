@@ -33,7 +33,7 @@ public class MenuActivity extends AppCompatActivity {
         super.onStart();
         Log.i("request", "started");
         queue = Volley.newRequestQueue(this);
-        String url = "http://192.168.1.51:2014/user-exists?token=" + GoogleLoginActivity.acct.getIdToken();
+        String url = getString(R.string.backendIP)+ "/user-exists?token=" + GoogleLoginActivity.acct.getIdToken();
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
