@@ -20,7 +20,7 @@ import com.android.volley.toolbox.Volley;
 /**
  * Created by Daniel on 12/23/2015.
  */
-public class getNameDialog extends DialogFragment {
+public class GetNameDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         final LayoutInflater inflater = getActivity().getLayoutInflater();
