@@ -2,6 +2,7 @@ package teamalpha.teamalphaapp;
 
 import android.app.DialogFragment;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,54 +33,42 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
         super.onStart();
         final Context context = this;
         queue = Volley.newRequestQueue(context);
-        String url = getString(R.string.backendIP)+ "/get-id?token=" + GoogleLoginActivity.acct.getIdToken();
+        Intent i = getIntent();
+        String userID = i.getStringExtra("userID").toString();
+        Log.i("userID", userID);
+        String url = getString(R.string.backendIP)+ "/get-user?id=" + userID;
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        queue = Volley.newRequestQueue(context);
-                        String url = getString(R.string.backendIP)+ "/get-user?id=" + response;
-                        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
-                                new Response.Listener<String>() {
-                                    @Override
-                                    public void onResponse(String response) {
-                                        TextView name = (TextView)findViewById(R.id.name);
-                                        TextView skill = (TextView)findViewById(R.id.skill);
-                                        TextView games = (TextView)findViewById(R.id.games);
-                                        TextView wins = (TextView)findViewById(R.id.wins);
-                                        ArrayList<String[]> comments = new ArrayList<String[]>();
-                                        try {
-                                            JSONObject JSONResponse = new JSONObject(response);
-                                            name.setText(JSONResponse.getString("name"));
-                                            skill.setText(JSONResponse.getString("skillNumber"));
-                                            games.setText(JSONResponse.getString("games"));
-                                            wins.setText(JSONResponse.getString("wins"));
-                                            JSONArray JSONcomments = JSONResponse.getJSONArray("comments");
-                                            Log.i(TAG, "JSONcomments length " + JSONcomments.length());
-                                            for(int i = 0; i<JSONcomments.length();i++){
-                                                JSONArray JSONcomment = JSONcomments.getJSONArray(i); //what a terrible variable name :(
-                                                comments.add(new String[]{JSONcomment.get(0).toString(), JSONcomment.get(1).toString()});
+                        TextView name = (TextView)findViewById(R.id.name);
+                        TextView skill = (TextView)findViewById(R.id.skill);
+                        TextView games = (TextView)findViewById(R.id.games);
+                        TextView wins = (TextView)findViewById(R.id.wins);
+                        ArrayList<String[]> comments = new ArrayList<String[]>();
+                        try {
+                            JSONObject JSONResponse = new JSONObject(response);
+                            name.setText(JSONResponse.getString("name"));
+                            skill.setText(JSONResponse.getString("skillNumber"));
+                            games.setText(JSONResponse.getString("games"));
+                            wins.setText(JSONResponse.getString("wins"));
+                            JSONArray JSONcomments = JSONResponse.getJSONArray("comments");
+                            Log.i(TAG, "JSONcomments length " + JSONcomments.length());
+                            for(int i = 0; i<JSONcomments.length();i++){
+                                JSONArray JSONcomment = JSONcomments.getJSONArray(i); //what a terrible variable name :(
+                                comments.add(new String[]{JSONcomment.get(0).toString(), JSONcomment.get(1).toString()});
 
-                                            }
-                                            CommentStringAdapter adapter = new CommentStringAdapter(context,R.layout.comment_row,comments);
-                                            ListView commentList = (ListView)findViewById(R.id.commentList);
-                                            commentList.setAdapter(adapter);
-
-                                        } catch (JSONException e) {
-                                            e.printStackTrace();
-                                        }
-                                    }
-                                }, new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-                                Log.i("Request",error.toString());
                             }
-                        });
-                        queue.add(stringRequest);
+                            CommentStringAdapter adapter = new CommentStringAdapter(context,R.layout.comment_row,comments);
+                            ListView commentList = (ListView)findViewById(R.id.commentList);
+                            commentList.setAdapter(adapter);
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -87,6 +76,7 @@ public class ProfileActivity extends AppCompatActivity {
                 Log.i("Request",error.toString());
             }
         });
+
         queue.add(stringRequest);
     }
 }

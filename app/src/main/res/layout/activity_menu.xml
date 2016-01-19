@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
@@ -9,38 +9,40 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity"
+    android:orientation="vertical">
 
-    <TableRow>
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/findAMatch"
-            android:id="@+id/buttonFindMatch"
-            android:layout_weight="1"
-            android:onClick="openFindAMatch" />
-    </TableRow>
 
-    <TableRow>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/findAMatch"
+        android:id="@+id/buttonFindMatch"
+        android:onClick="openFindAMatch" />
 
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/friendsList"
-            android:id="@+id/buttonFriendsList"
-            android:layout_weight="1"
-            android:onClick="openFriendsList" />
-    </TableRow>
-    <TableRow>
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/profile"
-            android:id="@+id/buttonProfile"
-            android:layout_weight="1"
-            android:onClick="openProfile"
-            />
-    </TableRow>
 
-</TableLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friendsList"
+        android:id="@+id/buttonFriendsList"
+        android:onClick="openFriendsList" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:id="@+id/buttonProfile"
+        android:onClick="openProfile"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Search"
+        android:id="@+id/buttonSearch"
+        android:onClick="openSearch"
+        />
+
+</LinearLayout>

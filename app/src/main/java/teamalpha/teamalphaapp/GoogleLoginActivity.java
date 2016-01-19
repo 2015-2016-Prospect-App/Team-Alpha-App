@@ -70,7 +70,9 @@ public class GoogleLoginActivity extends AppCompatActivity implements
             handleSignInResult(result);
         }
     }
+
     private void handleSignInResult(GoogleSignInResult result) {
+
         if (result.isSuccess()) {
             // Signed in successfully, show authenticated UI.
             acct = result.getSignInAccount();

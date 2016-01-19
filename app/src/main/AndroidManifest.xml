@@ -56,7 +56,8 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>
