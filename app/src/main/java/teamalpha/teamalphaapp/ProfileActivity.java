@@ -3,9 +3,15 @@ package teamalpha.teamalphaapp;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -27,7 +33,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private RequestQueue queue;
     private final String TAG = "Profile";
-
+    String username;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +58,7 @@ public class ProfileActivity extends AppCompatActivity {
                         try {
                             JSONObject JSONResponse = new JSONObject(response);
                             name.setText(JSONResponse.getString("name"));
+                            username = (String)JSONResponse.get("name");
                             skill.setText(JSONResponse.getString("skillNumber"));
                             games.setText(JSONResponse.getString("games"));
                             wins.setText(JSONResponse.getString("wins"));
@@ -78,5 +85,28 @@ public class ProfileActivity extends AppCompatActivity {
         });
 
         queue.add(stringRequest);
+    }
+    public void addFriend(View v){
+
+        FloatingActionButton button = (FloatingActionButton) findViewById(R.id.plus);
+        Animation animSlide = AnimationUtils.loadAnimation(this, R.anim.slide_out);
+        animSlide.setFillAfter(true);
+        button.startAnimation(animSlide);
+        button.setClickable(false);
+        String url = getString(R.string.backendIP)+ "/add-friend?token=" + GoogleLoginActivity.acct.getIdToken() + "&friendName=" + username;
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Log.i("Friend","Friend add");
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.i("Request",error.toString());
+            }
+        });
+        queue.add(stringRequest);
+
     }
 }
