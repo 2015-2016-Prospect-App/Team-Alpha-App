@@ -11,7 +11,9 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
+import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -25,6 +27,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -57,11 +60,11 @@ public class ProfileActivity extends AppCompatActivity {
                         ArrayList<String[]> comments = new ArrayList<String[]>();
                         try {
                             JSONObject JSONResponse = new JSONObject(response);
-                            name.setText(JSONResponse.getString("name"));
+                            name.setText("Name: " + JSONResponse.getString("name"));
                             username = (String)JSONResponse.get("name");
-                            skill.setText(JSONResponse.getString("skillNumber"));
-                            games.setText(JSONResponse.getString("games"));
-                            wins.setText(JSONResponse.getString("wins"));
+                            skill.setText("Skill: " + JSONResponse.getString("skillNumber"));
+                            games.setText("Games Played: " + JSONResponse.getString("games"));
+                            wins.setText("Wins: " + JSONResponse.getString("wins"));
                             JSONArray JSONcomments = JSONResponse.getJSONArray("comments");
                             Log.i(TAG, "JSONcomments length " + JSONcomments.length());
                             for(int i = 0; i<JSONcomments.length();i++){
@@ -71,7 +74,49 @@ public class ProfileActivity extends AppCompatActivity {
                             }
                             CommentStringAdapter adapter = new CommentStringAdapter(context,R.layout.comment_row,comments);
                             ListView commentList = (ListView)findViewById(R.id.commentList);
+                            commentList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                                @Override
+                                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                                    TextView commentName = (TextView)view.findViewById(R.id.commentName);
+                                    Log.i("Comment", commentName.getText().toString());
+                                    String url = getString(R.string.backendIP) + "/get-id-from-name?name=" + commentName.getText().toString();
+                                    StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                                            new Response.Listener<String>() {
+                                                @Override
+                                                public void onResponse(String response) {
+                                                    String userID = response;
+                                                    Intent i = new Intent(ProfileActivity.this,ProfileActivity.class).putExtra("userID",userID);
+                                                    startActivity(i);
+                                                }
+                                            }, new Response.ErrorListener() {
+                                        @Override
+                                        public void onErrorResponse(VolleyError error) {
+                                            Log.i("Request",error.toString());
+                                        }
+                                    });
+                                    queue.add(stringRequest);
+                                }
+                            });
                             commentList.setAdapter(adapter);
+
+                            String url = getString(R.string.backendIP)+ "/valid-friend?token=" + GoogleLoginActivity.acct.getIdToken() + "&friendName=" + username;
+                            StringRequest checkFriendRequest = new StringRequest(Request.Method.GET, url,
+                                    new Response.Listener<String>() {
+                                        @Override
+                                        public void onResponse(String response) {
+                                            boolean validFriend = Boolean.parseBoolean(response);
+                                            if(!validFriend){
+                                                Button addFriend = (Button)findViewById(R.id.addFriend);
+                                                addFriend.setVisibility(View.GONE);
+                                            }
+                                        }
+                                    }, new Response.ErrorListener() {
+                                @Override
+                                public void onErrorResponse(VolleyError error) {
+                                    Log.i("Request",error.toString());
+                                }
+                            });
+                            queue.add(checkFriendRequest);
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -83,12 +128,11 @@ public class ProfileActivity extends AppCompatActivity {
                 Log.i("Request",error.toString());
             }
         });
-
         queue.add(stringRequest);
     }
     public void addFriend(View v){
 
-        FloatingActionButton button = (FloatingActionButton) findViewById(R.id.plus);
+        Button button = (Button) findViewById(R.id.addFriend);
         Animation animSlide = AnimationUtils.loadAnimation(this, R.anim.slide_out);
         animSlide.setFillAfter(true);
         button.startAnimation(animSlide);
@@ -109,4 +153,5 @@ public class ProfileActivity extends AppCompatActivity {
         queue.add(stringRequest);
 
     }
+
 }

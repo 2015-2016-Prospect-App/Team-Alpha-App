@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_normal_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_normal_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
@@ -18,10 +14,6 @@
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_pressed_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_pressed_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_mono_dark.png",
@@ -68,14 +60,6 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_disabled_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_focus_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_focus_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cast_ic_notification_on.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-xxhdpi\\cast_ic_notification_on.png"
     },
@@ -92,20 +76,12 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-xxhdpi\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_pressed_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_off_mono_dark.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_media_route_off_mono_dark.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_pressed_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_pressed_light.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
@@ -124,12 +100,12 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -168,14 +144,6 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_disabled_focus_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_light.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_disabled_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -184,12 +152,12 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_cast_on_0_light.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_cast_on_0_light.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_cast_on_0_light.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_cast_on_0_light.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -232,12 +200,12 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-xxhdpi\\cast_ic_notification_0.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
@@ -262,10 +230,6 @@
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_play_dark.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_play_dark.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_pressed_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_pressed_light.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_cast_dark.png",
@@ -316,10 +280,6 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-xxhdpi\\powered_by_google_light.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_focus_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_focus_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
@@ -340,14 +300,6 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_normal_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_normal_light.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_focus_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_focus_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cast_ic_notification_2.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-xxhdpi\\cast_ic_notification_2.png"
     },
@@ -356,24 +308,12 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_normal_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_normal_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_disabled_focus_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_normal_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_normal_light.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
@@ -412,10 +352,6 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_disabled_focus_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
@@ -440,10 +376,6 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_pause_light.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_focus_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_disabled_focus_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
@@ -454,10 +386,6 @@
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_disabled_light.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_light.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cast_ic_notification_1.png",
@@ -476,16 +404,12 @@
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_pause_dark.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_disabled_mono_dark.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_media_route_disabled_mono_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_icon_disabled_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_icon_disabled_dark.9.png"
+        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_disabled_mono_dark.png",
+        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xxhdpi\\ic_media_route_disabled_mono_dark.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_plusone_small_off_client.png",
@@ -502,10 +426,6 @@
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_signin_btn_text_focus_dark.9.png",
-        "source": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xxhdpi\\common_signin_btn_text_focus_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Daniel\\AndroidStudioProjects\\Team-Alpha-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",

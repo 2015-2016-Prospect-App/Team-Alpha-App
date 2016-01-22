@@ -23,6 +23,7 @@ import com.android.volley.toolbox.Volley;
 public class GetNameDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+        setCancelable(false);
         final LayoutInflater inflater = getActivity().getLayoutInflater();
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         final View dialogView = inflater.inflate(R.layout.dialog_name, null);

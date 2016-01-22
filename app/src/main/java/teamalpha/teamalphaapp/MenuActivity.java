@@ -75,8 +75,5 @@ public class MenuActivity extends AppCompatActivity {
         queue.add(stringRequest);
 
     }
-    public void openSearch(View v){
-        startActivity(new Intent(MenuActivity.this,SearchActivity.class));
-    }
 
 }

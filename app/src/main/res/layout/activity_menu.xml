@@ -35,12 +35,6 @@
         android:onClick="openProfile"
         />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Player Search"
-        android:id="@+id/buttonSearch"
-        android:onClick="openSearch"
-        />
+
 
 </LinearLayout>
